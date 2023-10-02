@@ -41,7 +41,7 @@ export const columns: ColumnDef<Task>[] = [
     header: ({ column }) => (
         <DataTableColumnHeader column={column} title="Ngày PC" />
     ),
-    cell: ({ row }) => <div className="w-[70px] text-center">{row.getValue("dateAssign")}</div>,
+    cell: ({ row }) => <div className="w-[120px] text-center">{row.getValue("dateAssign")}</div>,
     enableSorting: false,
     enableHiding: false,
   },
@@ -86,7 +86,7 @@ export const columns: ColumnDef<Task>[] = [
     header: ({ column }) => (
         <DataTableColumnHeader column={column} title="Kết quả" />
     ),
-    cell: ({ row }) => <div className="w-[70px] text-center">{row.getValue("result")}</div>,
+    cell: ({ row }) => <div className="w-[100px] text-center">{row.getValue("result")}</div>,
     enableSorting: false,
     enableHiding: false,
   },

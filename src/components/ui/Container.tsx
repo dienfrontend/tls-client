@@ -9,7 +9,7 @@ const Container: React.FC<ContainerProps> = ({
     children
 }) => {
     return (
-        <div className={cx('container mx-auto w-full')}>
+        <div className={cx('px-12 mx-auto w-full')}>
             {children}
         </div>
     )
